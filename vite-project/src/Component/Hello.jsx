@@ -1,11 +1,13 @@
 const Hello = (props) => {
-  const { name, message } = props;
+  const { person } = props;
+  console.log(person);
   return (
     <>
       <input type="text" />
       <div>
-        Hello {name}
-        {message}
+        Hello {person.name}
+        {person.message}
+        {person.seatNumber}
       </div>
     </>
   );
