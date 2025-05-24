@@ -1,3 +1,4 @@
+import Fruit from "./Fruit";
 const Fruits = () => {
   const Fruits = [
     {
@@ -27,10 +28,16 @@ const Fruits = () => {
         <ul>
           HELLO{" "}
           {Fruits.map((fruits) => (
-            <li key={fruits.name}>
-              {fruits.emoji}
-              {fruits.name} ${fruits.price}
-            </li>
+            <Fruit
+              key={fruits.name}
+              name={fruits.name}
+              price={fruits.price}
+              emoji={fruits.emoji}
+            />
+            // <li key={fruits.name}>
+            //   {fruits.emoji}
+            //   {fruits.name} ${fruits.price}
+            // </li>
           ))}
         </ul>
       </div>

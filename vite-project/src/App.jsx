@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Hello from "./Component/Hello";
 import Fruits from "./Component/Fruits";
+import ConditionalComponent from "./Component/ConditionalComponent";
 const name = "world";
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <div>hello world{name}</div>
       <Hello person={person} />
       <Fruits />
+      <ConditionalComponent />
     </>
   );
 }
