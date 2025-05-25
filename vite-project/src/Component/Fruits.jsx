@@ -3,7 +3,7 @@ const Fruits = () => {
   const Fruits = [
     {
       name: "apple",
-      price: 10,
+      price: 3,
       emoji: "🍎",
     },
     {
@@ -18,7 +18,7 @@ const Fruits = () => {
     },
     {
       name: "coconut",
-      price: 46,
+      price: 4,
       emoji: "🥥",
     },
   ];
