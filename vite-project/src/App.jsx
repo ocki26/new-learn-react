@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Hello from "./Component/Hello";
 import Fruits from "./Component/Fruits";
+import Message from "./Component/message";
 import ConditionalComponent from "./Component/ConditionalComponent";
 const name = "world";
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hello person={person} />
       <Fruits />
       <ConditionalComponent />
+      <Message />
     </>
   );
 }

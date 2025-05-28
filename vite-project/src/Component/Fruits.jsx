@@ -5,21 +5,25 @@ const Fruits = () => {
       name: "apple",
       price: 3,
       emoji: "🍎",
+      soldout: true,
     },
     {
       name: "banana",
       price: 7,
       emoji: "🍌",
+      soldout: true,
     },
     {
       name: "mango",
       price: 12,
       emoji: "🥭",
+      soldout: false,
     },
     {
       name: "coconut",
       price: 4,
       emoji: "🥥",
+      soldout: true,
     },
   ];
   return (
@@ -33,6 +37,7 @@ const Fruits = () => {
               name={fruits.name}
               price={fruits.price}
               emoji={fruits.emoji}
+              soldout={fruits.soldout}
             />
             // <li key={fruits.name}>
             //   {fruits.emoji}
