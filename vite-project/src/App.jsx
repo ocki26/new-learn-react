@@ -3,6 +3,8 @@ import Hello from "./Component/Hello";
 import Fruits from "./Component/Fruits";
 import Message from "./Component/message";
 import ConditionalComponent from "./Component/ConditionalComponent";
+import Counter from "./Component/Counter";
+import Form from "./Component/Form";
 const name = "world";
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +21,8 @@ function App() {
       <Fruits />
       <ConditionalComponent />
       <Message />
+      <Counter />
+      <Form />
     </>
   );
 }

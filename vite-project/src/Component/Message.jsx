@@ -1,9 +1,7 @@
 import Fruit from "./Fruit";
 
 const Message = () => {
-  const HandelClick = () => {
-    console.log("button click");
-  };
+  const HandelClick = () => {};
   return (
     <>
       <div>
